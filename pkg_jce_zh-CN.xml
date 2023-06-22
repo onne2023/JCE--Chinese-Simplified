@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="file" version="1.0" method="upgrade" client="both">
+	<name>JCE - Chinese(Simplified) </name>
+	<tag>zh-CN</tag>
+	<version>20230601</version>
+	<creationDate>2023-06-01</creationDate>
+	<author>onne</author>
+	<authorEmail>dich55dl@163.com</authorEmail>
+	<copyright>2023 - Di,Chi</copyright>
+	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<description>Chinese(Simplified) language pack for JCE 2.x</description>
+	<fileset>
+		<files folder="admin" target="administrator/language/zh-CN">
+			<file>zh-CN.plg_system_jce.sys.ini</file>
+			<file>zh-CN.plg_system_jce.ini</file>
+			<file>zh-CN.plg_quickicon_jce.sys.ini</file>
+			<file>zh-CN.plg_quickicon_jce.ini</file>
+			<file>zh-CN.plg_installer_jce.sys.ini</file>
+			<file>zh-CN.plg_installer_jce.ini</file>
+			<file>zh-CN.plg_extension_jce.sys.ini</file>
+			<file>zh-CN.plg_extension_jce.ini</file>
+			<file>zh-CN.plg_content_jce.sys.ini</file>
+			<file>zh-CN.plg_content_jce.ini</file>			
+			<file>zh-CN.com_jce.sys.ini</file>			
+			<file>zh-CN.com_jce.ini</file>			
+			<file>zh-CN.plg_editors_jce.ini</file>
+			<file>zh-CN.plg_editors_jce.sys.ini</file>
+			<file>zh-CN.plg_fields_mediajce.ini</file>
+			<file>zh-CN.plg_fields_mediajce.sys.ini</file>
+			<file>zh-CN.com_jce.menu.ini</file>
+			<file>zh-CN.plg_system_jcemediabox.ini</file>
+			<file>zh-CN.plg_system_jcemediabox.sys.ini</file>
+		</files>		
+  	</fileset>
+	<fileset>
+		<files folder="language" target="language/zh-CN">
+			<file>zh-CN.com_jce.ini</file>
+			<file>zh-CN.com_jce_pro.ini</file>
+			<file>zh-CN.pkg_jce.sys.ini</file>
+		</files>		
+	</fileset>
+</extension>
